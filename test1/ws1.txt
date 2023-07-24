@@ -1,0 +1,4 @@
+1. Provides a description of what the commit does/change
+2. A brief summary of the changes made
+3. Anytime a change or addition has been made, every change should be its own commit.
+4. False, can use gitignore to prevent some unnecessary files from being commited
