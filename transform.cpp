@@ -26,5 +26,11 @@ void Transform(int n)
         }
     }
 
+    //Add endline
     std::cout << std::endl;
+}
+
+int main()
+{
+    Transform(696969);
 }
