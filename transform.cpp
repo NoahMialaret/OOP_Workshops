@@ -33,4 +33,6 @@ void Transform(int n)
 int main()
 {
     Transform(696969);
+
+    return 0;
 }
