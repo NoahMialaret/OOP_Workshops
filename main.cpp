@@ -13,7 +13,6 @@ int main()
     int size = 10;
     double* dArr = dynamicArray(size, d);
 
-
     printArray(dArr, size);
     std::cout << "Max: " << arrayMax(dArr, size) << std::endl;
 
