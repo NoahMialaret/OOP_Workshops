@@ -16,6 +16,8 @@ void printArray(double* pd, int length)
     {
         std::cout << pd[i] << " ";
     }
+
+    std::cout << std::endl;
 }
 
 double arrayMax(double* pd, int length)
