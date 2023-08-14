@@ -5,7 +5,7 @@ int* readNumbers()
     int* nums = new int[10];
     for (int i = 0; i < 10; i++)
     {
-        std::cout << "Please enter a number (" << i + 1 << "/10): ";
+        //std::cout << "Please enter a number (" << i + 1 << "/10): ";
         std::cin >> nums[i];
     }
 

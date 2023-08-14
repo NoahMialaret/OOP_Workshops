@@ -6,7 +6,7 @@ int* readNumbers()
     int* nums = new int[size];
     for (int i = 0; i < size; i++)
     {
-        std::cout << "Please enter a number (" << i + 1 << "/" << size << "): ";
+        //std::cout << "Please enter a number (" << i + 1 << "/" << size << "): ";
         std::cin >> nums[i];
     }
 
@@ -54,8 +54,8 @@ int secondSmallestSum(int* numbers, int length)
                 secondSmallest = sum;
             }
 
-            std::cout   << "Cur sum is: " << sum << " - With smallest: " << smallest 
-                        << " - And second smallest: " << secondSmallest << std::endl;
+            //std::cout   << "Cur sum is: " << sum << " - With smallest: " << smallest 
+            //            << " - And second smallest: " << secondSmallest << std::endl;
         }
     }
 
