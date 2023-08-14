@@ -33,8 +33,12 @@ int secondSmallestSum(int* numbers, int length)
         return numbers[0];
     }
 
-    int smallest = numbers[0] + numbers[1];
-    int secondSmallest = 0;
+    int smallest = 0;
+    for (int i = 0; i < length; i++)
+    {
+        smallest += abs(numbers[i]);
+    }
+    int secondSmallest = smallest + 1;
 
     for(int i = 0; i < length; i++)
     {
