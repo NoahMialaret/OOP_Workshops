@@ -2,7 +2,7 @@
 
 int* readNumbers()
 {
-    int size = 4;
+    int size = 10;
     int* nums = new int[size];
     for (int i = 0; i < size; i++)
     {
