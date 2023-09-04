@@ -5,7 +5,7 @@
 
 int main()
 {
-    Appliance* fridge = new Fridge(10, 100);
+    Appliance* fridge = new Fridge(10, 100.0);
 
     std::cout << fridge->getPowerConsumption() << std::endl;
 

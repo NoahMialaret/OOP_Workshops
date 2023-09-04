@@ -14,7 +14,7 @@ public:
 
     double getPowerConsumption() const override;
 private:
-    double volume = 0;
+    double volume = 0.0;
 };
 
 #endif
