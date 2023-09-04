@@ -22,6 +22,26 @@ void Appliance::turnOff()
     isOn = false;
 }
 
+int Appliance::get_powerRating() const
+{
+    return powerRating;
+}
+
+void Appliance::set_powerRating(int rating)
+{
+    powerRating = rating;
+}
+
+bool Appliance::get_isOn() const
+{
+    return isOn;
+}
+
+void Appliance::set_isOn(bool on)
+{
+    isOn = on;
+}
+
 double Appliance::getPowerConsumption() const
 {
     return 0.0;
