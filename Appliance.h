@@ -11,7 +11,7 @@ public:
     void turnOff();
 
     virtual double getPowerConsumption() const;
-private:
+protected:
     int powerRating = 0;
     bool isOn = false;
 };
